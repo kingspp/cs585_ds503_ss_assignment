@@ -1,0 +1,8 @@
+{
+    "global": {
+        "kafka_bootstrap_servers":  "kafka:9092",
+        "kafka_topic": "test-structured-streaming",
+        "kafka_consumer_group":"ss_job",
+        "max_records_per_batch":20
+    }
+}
